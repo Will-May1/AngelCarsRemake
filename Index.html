@@ -1,5 +1,29 @@
 <DOCTYPE html>
     <head>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">WebSiteName</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">Page 1</a></li>
+                        <li><a href="#">Page 2</a></li>
+                        <li><a href="#">Page 3</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
         <title>AngelCars Remake</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -30,10 +54,10 @@
                 </div>
 
                 <div class="item">
-                    <img src="http://www.angelcars.co.uk/images/eight_seats.jpg" alt="Two Buses">
+                    <img src="buss.jpg" alt="London Bus">
                     <div class="carousel-caption">
-                        <h3>Lake</h3>
-                        <p>Even though the lake was a mess, we had the best time.</p>
+                        <h3 style="font-size: 48px;">Double Decker Bus</h3>
+                        <p style="font-size: 32px;">Not one of ours, but it's a cool bus.</p>
                     </div>
                 </div>
             </div>
@@ -46,6 +70,29 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
+
+        <tr bgcolor="#0000FF">
+            <td colspan="2">	        
+                <table width="100%" border="0" cellpadding="5" cellspacing="0" bgcolor="#FFFFFF">
+                    <tbody>
+                        <tr>
+                            <td width="15%" bgcolor="#FFFFFF"><div align="center"><span class="black_on_white_text"><b><b><img src="http://angelcars.co.uk/images/OS_badge_down80.jpg" name="IMG1" width="80" height="80" align="left" id="IMG1" onclick="document.location.href='login_2010.asp'" onmouseover="swapImage();" onmouseout="swapImage();"></b></b></span></div></td>
+                            <td width="85%" bgcolor="#FFFFFF">
+                                <p>
+                                    <span class="black_on_white_text"><b>OUNDLE SCHOOL STUDENTS&nbsp;</b>
+
+                                        <input type="button" name="Submit3" value="Click here to Enter" onclick="window.location.href='http://angelcars.co.uk/interim.asp'">
+
+                                        <br>
+                                    </span>
+                                    <span class="blue_on_white">on-line booking service for travel to and from the UK major airports as well as Peterborough and Bedford Railway Stations (user name and password required).</span> <br>
+                                    <strong>Cookies</strong> : we do not track your browsing with cookies. </p>
+                                <p class="driver_schedule_printred">New students now added, please call Angel Cars on <strong>+44 1832 275265</strong> if you do not know your School Computer Number.</p></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
         <style>
         .carousel-inner img {
             -webkit-filter: grayscale(10%);
@@ -84,14 +131,16 @@
             overflow: hidden;
             position: relative;
     }
-
         </style>
     </head>
     <body>
+        <audio id="audio" src="byebye.mp3" preload="auto"></audio>
+
+        <button onclick="document.getElementById('audio').play()">Leave Website</button>
         <div class="container text-center">
-            <h3>UNDERTALE</h3>
-            <p style="text-align: center;"><em>We love Papyrus</em></p>
-            <p>We have created a fictional website. Lorem ipsum..</p>
+            <h3>Angel Cars</h3>
+            <p style="text-align: center;">We rent out<em> cars </em>and<em> buses</em></p>
+            <p>This is not an official website.</p>
             <br>
             <div class="row">
                 <div class="col-sm-12">
